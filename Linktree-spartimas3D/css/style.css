@@ -1,0 +1,81 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+
+html, body {
+    height: 100%;
+}
+
+body {
+    font-family: "Raleway", sans-serif;
+    color: white;
+    background: #dea94fe8;
+    background: linear-gradient(175deg,rgb(235, 180, 99) 0%, rgb(235, 155, 71) 100%);
+}
+
+.avatar {
+    width: 80px;
+    border-radius: 50px;
+    border: 3px solid white;
+    box-shadow: 0 0 20px white;
+}
+
+h1 {
+  font-family: "Architects Daughter", cursive;
+  font-weight: 100;
+  font-size: 24px;
+  margin-bottom: 2px;
+}
+
+h2 {
+    font-size: 16px;
+}
+
+.profile {
+    margin-top: 20px;
+    text-align: center;
+}
+
+.social {
+    display: flex;
+    justify-content: space-around;
+    list-style: none;
+    margin: 20px 0;
+}
+
+.social img {
+    width: 33px;
+
+}
+
+.Link-list {
+    list-style: none;
+}
+
+.Link-list li {
+    margin: 10px 20px;
+}
+
+.Link-list li a {
+    display: block;
+    background: white;
+    box-shadow: 0 0 20px white;
+    padding: 15px 20px;
+    border-radius: 4px;
+    font-family: "Raleway", sans-serif;
+    text-decoration: none;
+    color: #364DCC;
+    font-weight: bold;
+    
+}
+
+.Link-list li a span {
+
+    color: grey;
+    display: block;
+    margin-top: 10px;
+    font-weight: lighter;
+
+}
